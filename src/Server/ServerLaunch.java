@@ -1,5 +1,4 @@
 package Server;
-//hey thereee
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -15,8 +14,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-
 import java.io.Serializable;
+
+/**
+ * Created by Rebecca D'souza on 7/11/2017.
+ */
 
 public class ServerLaunch extends Application {
     private Connection.NetworkConnection connection = createServer();
